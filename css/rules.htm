@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{                    /*--- Selectors       ---*/
+			line-height: 3em;     /*--- Declaration Property: value; --*/
+			background:green;  /*--- Declaration Property: value; --*/ 
+		}
+		a:link{
+			color: red;
+		}
+		a:hover{
+			color: black;
+			font-weight: bold;
+		}
+		a:unvisited{
+			color: gray;
+		}
+		/*div:not(.completed){
+			font-size: 6em;
+		}*/
+		.completed:hover{
+			background: yellow;
+		}
+		div p:nth-child(2){
+			background:red;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<div name="thisOne" class="completed">This is a div content</div>
+	<div>Another div with some content</div>
+	<ul>
+		<li>First bullet</li>
+		<li>Second bullet</li>
+	</ul>
+	<p style="color: blue">This paragraph is blue because of its style</p>
+	<a href="#thisOne">Go up to the top of the page</a>
+	<div>Inside a div:
+		<p>
+			Paragraph 1
+		</p>
+		<p>
+			paragraph 2
+		</p>
+		<p>
+			paragraph 3
+		</p>
+	</div>
+</body>
+</html>
