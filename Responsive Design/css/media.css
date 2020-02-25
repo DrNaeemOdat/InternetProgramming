@@ -1,0 +1,27 @@
+/**** Base Styles ******/
+h1{
+	margin-bottom: 15px;
+}
+p{
+	border:1px solid black;
+	margin-bottom: 15px;
+}
+#p1{
+	background-color: #a52a2a;
+	width: 300px;
+	height: 300px;
+}
+#p2{
+	background-color: #deb887;
+	width: 50px;
+	height: 50px;
+}
+
+/***** Large Devices Only *********/
+
+@media (max-width: 767px){
+	p{
+		color: red;
+	}
+}
+
