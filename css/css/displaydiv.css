@@ -1,0 +1,17 @@
+span{
+	width: 175px;
+	background: #00ff00;
+	display:block;
+	text-align: center;
+}
+div{
+	width: 30%;
+	height: 100px;
+	background: #00ffff;
+	display: inline-block;
+}
+p{
+	width: 200px;
+	height: 100px;
+	background: #ff00ff;
+}
