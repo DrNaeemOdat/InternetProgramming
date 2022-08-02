@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Child Selector</title>
+	<style type="text/css">
+    /*Any article element that is a direct child of a section element*/
+		section > article{
+      color: green;
+			font-size: 3em;
+		}
+    /*Any h2 element which is a direct child of a section element*/
+    section>h2{
+      color: green;
+    }
+	</style>
+</head>
+<body>
+  <h1>Child Selector</h1>
+  <section>
+    <h2>Subheading 1</h2>
+    <div>
+      <article>Article inside div, which is inside section</article>
+    </div>
+  </section>
+  <section>
+    <article>Article which is a direct child of the section element.</article>
+  </section>
+  <h2>Subheading 2</h2>
+</body>
+</html>

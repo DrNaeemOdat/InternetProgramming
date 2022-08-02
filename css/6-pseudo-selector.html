@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pseudo Class Selector</title>
+  <style type="text/css">
+    /*list items are going to be as a menu items*/
+     header li {
+      list-style: none;
+    }
+    a:link,a:visited{
+      text-decoration: none;
+      background-color: green;
+      border: 1px solid blue;
+      color: black;
+      display: block;
+      width: 200px;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+    a:hover, a:active{
+      background-color: red;
+      color: purple;
+    }
+    header li:nth-child(3){
+      font-size: 24px;
+    }
+    section div:nth-child(odd){
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Pseudo Class Selector</h1>
+  <header>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="http://www.ttu.edu.jo/">TTU</a></li>
+      <li><a href="https://github.com/DrNaeemOdat/InternetProgramming">Course GitHub</a></li>
+    </ul>
+  </header>
+  <section>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <div>Div 3</div>
+    <div>Div 4</div>
+    <div>Div 5</div>
+    <div>Div 6</div>
+    <div>Div 7</div>
+    <div>Div 8</div>
+    <div>Div 9</div>
+    <div>Div 10</div>
+    <div>Div 11</div>
+    <div>Div 12</div>
+    <div>Div 13</div>
+    <div>Div 14</div>
+    <div>Div 15</div>
+    <div>Div 16</div>
+    <div>Div 17</div>
+    <div>Div 18</div>
+    <div>Div 19</div>
+    <div>Div 20</div>
+  </section>
+</body>
+
+</html>
