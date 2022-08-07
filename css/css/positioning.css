@@ -28,8 +28,9 @@ div.fixed {
   border: 3px solid #73AD21;
 }
 section{    
-    color: #FF0000;
-    padding-bottom: 2500px;
+  color: #FF0000;
+  padding-bottom: 2500px;
+  font-size: 1.5em;
 }
 div.sticky {
   -webkit-position: -webkit-sticky;
