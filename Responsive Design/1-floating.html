@@ -4,7 +4,7 @@
 	<title>Floating Elements</title>
 	<style type="text/css">
 		div{
-			background-color: #00FFFF;
+			background-color:#00FFFF;
 		}
 		p{
 			width: 50px;
@@ -16,29 +16,33 @@
 
 		#p1{
 			background-color: #A52A2A;
-			float:right;
-			/*float: left;*/
-			height: 200px;
+			/* float:right; */
+			float: left;
+			height: 100px;
 		}
 		#p2{
 			background-color: #DEB887;
-			/*float:right;*/
+			float:right;
 			height: 170px;
-			/*clear:right;*/
-			float: left;
+			/* clear:right; */
+			/* float: left; */
 		}
 		#p3{
 			background-color: #5F9EA0;
-			/*clear:left;*/
-			/*clear: right;*/
-			clear: both;/*No element is allowed to flat either to the left or to the right*/
+      /* float:right; */
+			/* clear:left; */
+			/* clear: right; */
+			clear: both;
+      /* No element is allowed to flat either to the left or to the right */
 		}
 		#p4{
 			background-color: #FF7F50;
+      /* clear:right; */
+      /* float:right; */
 		}
-		section{
-			/*clear: left; Nothing is allowed to float to the left*/
-		}
+		/* section{
+			/*clear: left; Nothing is allowed to float to the left
+		} */
 	</style>
 </head>
 <body>
@@ -48,7 +52,7 @@
 		<p id="p2"></p>
 		<p id="p3"></p>
 		<p id="p4"></p>
-		<section>This is regular content containing after the paragraph boxes.</section>
+		<section>This is regular content after the paragraph boxes.</section>
 	</div>
 
 </body>
