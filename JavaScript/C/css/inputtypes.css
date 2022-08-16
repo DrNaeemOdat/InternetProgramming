@@ -1,0 +1,8 @@
+form{
+	display: block;
+	border: 2px red solid;
+	width: 50%;
+}
+form>legend{
+	color: #00FF00;
+}

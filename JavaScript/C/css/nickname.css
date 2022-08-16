@@ -1,0 +1,9 @@
+form{
+	display: block;
+	margin: 10px;
+}
+label{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+}
